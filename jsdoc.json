@@ -4,7 +4,7 @@
     },
     "source": {
         "include": [
-            "web-app/battleship.js"
+            "web-app/battleships.js"
         ],
         "includePattern": "\\.js$",
         "excludePattern": "(node_modules/|docs)"
