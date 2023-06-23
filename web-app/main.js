@@ -2,7 +2,7 @@ import R from "./ramda.js";
 import Battleship from "./battleship.js";
 
 const optionContainer = document.querySelector(".option-container");
-// stores the class element 'option container' as a variable.
+// stores the class element 'option container' as a variable
 const flipButton = document.querySelector("#flip-button");
 // stores the ID 'flip-button' as a variable.
 
@@ -28,13 +28,11 @@ const gamesBoardContainer = document.querySelector("#gamesboard-container");
 const width = 10;
 
 //function that creates a board with an argument color and user
-function createBoard(color, user) {
+function createBoard(user) {
     const gameBoardContainer = document.createElement("div");
     // stores a new div under gameBoardContainer
     gameBoardContainer.classList.add("game-board");
     // adds a class called game-board
-    gameBoardContainer.style.backgroundColor = color;
-    //assigns a background color based upon argument inputted
     gameBoardContainer.id = user;
     // gives each board created an ID based upon the argument given
 

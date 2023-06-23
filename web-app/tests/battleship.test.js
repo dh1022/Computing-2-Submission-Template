@@ -1,4 +1,4 @@
-//The code below are unit tests I have unsuccessfully implemented
+//The code below are unit tests I have unsuccessfully implemented.
 describe("Battleship", () => {
     describe("createShip", () => {
       it("should create a ship object with the specified name and length", () => {

@@ -14,7 +14,7 @@ const Battleship = Object.create(null);
  * @function
  * @param {string} name Name of Battleship
  * @param {number} length Length of Battleship i.e. - Destroyer = 2
- * @returns a Battleship with the name and length of the ship
+ * @returns a Battleship with the name and length of the ship.
  */
 Battleship.createShip = function (name, length) {
     return { name, length };

@@ -4,7 +4,7 @@
     justify-content: center; /**spaces items within the container, i.e. the two game boards **/
 }
 
-.game-board{ /** defining the size of the 10x10 game boards**/
+.game-board{ /** defining the size of the 10x10 game boards.**/
     width: 400px;
     height: 400px;
     display: flex;
